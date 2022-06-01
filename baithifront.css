@@ -1,0 +1,246 @@
+.image-one{
+    position: relative;
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
+}
+.image-two{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 130px auto 80px;
+    padding-left: 120px;
+}
+.image-three{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 130px 0px 80px;
+    padding-left: 120px;
+}
+.image-four {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 240px 1px 80px ;
+    padding-left: 150px;
+    width: 25%;
+}
+.dong1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 160px auto 80px;
+    padding-left: 150px;
+    font-family: 'Helvetica Newx',"Helvetica Neue",Helvetica;
+    font-size: 30px;
+}
+.dong2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 193px auto 80px;
+    padding-left: 160px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+}
+.dong3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 215px auto 80px;
+    padding-left: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 10px;
+}
+.dong4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 350px auto 80px;
+    padding-left: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+.dong5 {
+    display: flow-root;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 390px auto ;
+    padding-left: 150px;
+    padding-right: 850px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13.5px;
+}
+.check{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 495px auto 130px;
+    padding-left: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+.bi-record-fill{
+    padding-left: 190px;
+}
+.checkout{
+    padding-left: 170px;
+
+}
+.date{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 520px auto ;
+    padding-left: 150px;
+
+}
+.cout input[type="date"] {
+    height: 40px;
+    font-size: 20px;
+    padding-left: 15px;
+}
+.ngay{
+    background-color: rgb(231, 221, 221);
+    height: 40px;
+    width: 150px;
+    border-collapse: collapse;
+    border: none;
+}
+.select{
+    height: 40px;
+    width: 165px;
+    background-color: rgb(231, 221, 221);
+    border-collapse: collapse;
+    border: none;
+    margin-left: 25px;
+    padding-left: 50px;
+}
+.number{
+    height: 50px;
+    width: 150px;
+    background-color: rgb(231, 221, 221);
+}
+.numlec{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 610px auto ;
+    padding-left: 150px;
+}
+.test{
+    border-collapse: collapse;
+    border: none;
+    width: 45px;
+    height: 30px;
+    background-color: rgb(231, 221, 221);
+    
+}
+.test1{
+    border-collapse: collapse;
+    border: none;
+    width: 33px;
+    height: 28px; 
+    padding-left: 15px;
+}
+.btn{
+    position: absolute;
+    border-collapse: collapse;
+    border: none;
+    background-color: rgb(231, 221, 221);
+    width: 160px;
+}
+.per{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 580px auto ;
+    padding-left: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+.perrom{
+    padding-left: 180px;
+}
+
+.btn5-hover {
+    width: 320px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.btn5-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn5-hover:focus {
+    outline: none;
+}
+
+.btn5-hover.btn5 {
+   background-image: linear-gradient(
+     to right,
+     #f3b200,
+     #f3b200,
+     #f3b200,
+     #f3b200
+   );
+   box-shadow: 0 4px 15px 0 rgba(250, 232, 67, 0.75);
+ }
+ .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 660px auto ;
+    padding-left: 170px;
+ }
+ .map{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 680px auto ;
+    padding-left: 620px;
+    font-size: 20px;
+    color: whitesmoke;
+ }
+ .bi-geo-alt-fill{
+     font-size: 40px;
+ }
+ .map1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 682px auto ;
+    padding-left: 662px;
+    font-size: 20px;
+    color: whitesmoke;
+ }
+.lichcheckin input[type="date"] {
+    font-size: 20px;
+    padding-left: 10px;
+}
+.bi-arrows-angle-expand{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 165px auto ;
+    padding-left: 520px;
+    color: rgb(171, 154, 154);
+    font-size: x-large;
+}

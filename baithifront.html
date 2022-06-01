@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai thi cuoi ki</title>
+    <link rel="stylesheet" href="baithifront.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+<body>
+  <div class="image-one">
+      <img src="https://cdn.kiwicollection.com/media/property/PR004415/xl/004415-14-Chill%20Out.jpg?cb=1435082952" alt="" style="width: 1250px ; height: 900px;">
+      <ion-icon name="expand-outline"></ion-icon>
+  </div>
+  <div class="image-two">
+      <img src="image/cogiuong.png" alt="" height="640" style="width: 970px; ;">
+  </div>
+  <div class="image-three">
+      <img src="image/white.png" alt="" height="640" width="450">
+  </div>
+  <div>
+      <h1 class="dong1">Hilton</h1>
+      <h6 class="dong2">P R E M I U M</h6>
+      <h6 class="dong3">HOTEL BOOKING > <span style="color:rgb(148, 148, 148)" >PRCING LAN</span> > <span style="color:rgb(148, 148, 148)" >CONFIRM RESERVATION</span></h6>
+  </div>
+  <div class="image-four">
+      <img src="image/anhnho.png" alt="" height="100" style="width: 370px;">
+  </div>
+  <div>
+  <div class="dong4">PLAN YOUR STAY!</div>
+  <p class="dong5">As Hilton's flagship hotel, Barbaros Bay bodrum is in a <br> quiet location, overlooking Gokova Bay. It provides <br> luxury rooms with private balconies, 2 swimming pools, <br> restaurants with sea views and free Wi-Fi.</p>
+</div>
+<div class="check">
+    <b>Check-In</b>
+    <b class="checkout">Check-Out</b> 
+</div>
+<i class="bi bi-arrows-angle-expand"></i>
+<div class="date" >
+    <i class="lichcheckin"> <input class="ngay"  type="date" name="bday" max="2030-12-31"></i>
+    <i class="bi bi-record-fill" style="padding-right: 25px;padding-left: 25px;"></i>
+    <i  class="cout"> <input class="ngay" type="date" name="bday" min="2000-01-02" ></i>
+</div>
+<div class="per">
+    <b>Persons</b>   
+    <b class="perrom">Rooms</b>
+</div>
+<div class="numlec">
+    <button class="btn" style="padding-top: 6px;padding-bottom: 6px;">
+        <input class="test" onclick="var result = document.getElementById('quantity'); var qty = result.value; if( !isNaN(qty)) result.value++;return false;" type='button' value='+'/>
+        <input class="test1" type="number" id="quantity" name="quantity"/>
+        <input class="test" onclick="var result = document.getElementById('quantity'); var qty = result.value; if( !isNaN(qty) &amp; qty > 1 ) result.value--;return false;" type='button' value='-' />
+        </button>
+        <i class="bi bi-record-fill"></i>
+    <select class="select" name="" id="">
+        <option  value="">1 phòng</option>
+        <option value="">2 phòng</option>
+        <option value="">3 phòng</option>
+        <option value="">4 phòng</option>
+        <option value="">5 phòng</option>
+        <option value="">6 phòng</option>
+        <option value="">7 phòng</option>
+        <option value="">8 phòng</option>
+        <option value="">9 phòng</option>
+        <option value="">10 phòng</option>
+    </select>
+</div>
+<a class="content" href="">
+    <button class="btn5-hover btn5"> 
+        Check Availability
+    </button>
+</a>
+<div class="map">
+    <i class="bi bi-geo-alt-fill"></i>
+</div>
+<b class="map1">KEMPINSKI HOTEL <br> Barbaros Bay, Turkey </b> 
+</div>
+</body>
+</html>
